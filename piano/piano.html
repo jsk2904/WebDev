@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./piano.css">
+ <title>Document</title>
+</head>
+<body>
+  <audio src="./a1.mp3"  id="a1"></audio>
+  <audio src="./a11.mp3" id="a11"></audio>
+  <audio src="./a12.mp3" id="a12"></audio>
+  <audio src="./a13.mp3" id="a13"></audio>
+  <audio src="./a14.mp3" id="a14"></audio>
+  <audio src="./a15.mp3" id="a15"></audio>
+  <audio src="./a17.mp3" id="a17"></audio>
+  <audio src="./a18.mp3" id="a18"></audio>
+  <audio src="./a19.mp3" id="a19"></audio>
+  <audio src="./a20.mp3" id="a20"></audio>
+  <audio src="./a21.mp3" id="a21"></audio>
+  <audio src="./a22.mp3" id="a22"></audio>
+  <audio src="./a23.mp3" id="a23"></audio>
+   <div class="key-space">
+        <button type="button" class="white" onclick="play('a1')"></button>
+        <button type="button" class="black" onclick="play('a11')"></button>
+        <button type="button" class="white" onclick="play('a12')"></button>
+        <button type="button" class="black" onclick="play('a13')"></button>
+        <button type="button" class="white" onclick="play('a14')"></button>
+        <button type="button" class="white" onclick="play('a15')"></button>
+        <button type="button" class="black" onclick="play('a17')"></button>
+        <button type="button" class="white" onclick="play('a18')"></button>
+        <button type="button" class="black" onclick="play('a19')"></button>
+        <button type="button" class="white" onclick="play('a20')"></button>
+        <button type="button" class="white" onclick="play('a23')"></button>
+        <button type="button" class="black" onclick="play('a21')"></button>
+        <button type="button" class="white" onclick="play('a22')"></button>
+   </div>
+  <div class="clrTry">
+    <h1>color picker</h1>
+    <input type="color" id="favcolor"></input>
+  </div>
+</body>
+  <script src="piano.js"></script>
+</body>
+</html>
